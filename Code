@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calc.css">
+  </head>
+  <body>
+    <div id="main">
+<input type="number" id="input">
+<div id="numpad">
+  <button type="button" onclick="getValue('b1');" id="b1">1</button>
+  <button type="button" onclick="getValue('b2');" id="b2">2</button>
+  <button type="button" onclick="getvalue('b3');" id="b3">3</button>
+  <button type="button" onclick="getvalue('b4');" id="b4">4</button>
+  <button type="button" onclick="getvalue('b5');" id="b5">5</button>
+  <button type="button" onclick="getvalue('b6');" id="b6">6</button>
+   <button type="button" onclick="getvalue('b7');" id="b6">7</button>
+   <button type="button" onclick="getvalue('b8');" id="b6">8</button>
+   <button type="button" onclick="getvalue('b9');" id="b6">9</button>
+   <button type="button" onclick="getvalue('b0');" id="b6">0</button>
+</div> 
+<div id="op">
+  <button type="button" class="opbut" onclick="operate('plus')" id="plus">+</button>
+  <button type="button" class="opbut" onclick="operate('minus')" id='minus'>-</button>
+  <button type="button" class="opbut" onclick="operate('multiply')" id='multiply'>*</button>
+  <button type="button" class="opbut" onclick="operate('div')" id='div'>%</button>
+  <button type="button"class="opbut" onclick="calculate()">=</button>
+</div>
+<h1>CALCULATOR N001</h1>
+</div>
+    <script type="text/javascript" src="calc.js">
+
+    </script>
+  </body>
+</html>
